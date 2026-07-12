@@ -1,0 +1,31 @@
+body{
+    background:#eef5fb;
+    font-family:Arial, sans-serif;
+}
+
+.card{
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0px 10px 20px rgba(0,0,0,0.2);
+}
+
+.profile{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit:cover;
+    margin:auto;
+}
+
+.btn{
+    width:120px;
+    margin:auto;
+}
+
+input{
+    height:45px;
+}
